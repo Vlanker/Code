@@ -1,20 +1,22 @@
-﻿byte[] binaryObject = new byte[128];
+byte[] binaryObjects = new byte[128];
 
-new Random().NextBytes(binaryObject);
+new Random().NextBytes(binaryObjects);
 
 Console.WriteLine("Binary object as bytes:");
 
-for(var index = 0; index < binaryObject.Length; index++)
+for (var index = 0; index < binaryObjects.Length; index++)
 {
-    Console.Write($"{binaryObject[index]:X} ");
+    Console.Write($"{binaryObjects[index]:X} ");
 }
-
-// foreach (var t in binaryObject)
-// {
-//     Console.Write($"{t:X}");
-// }
 
 Console.WriteLine();
 
-string encoded = Convert.ToBase64String(binaryObject);
+foreach (var binaryObject in binaryObjects)
+{
+    Console.Write($"{binaryObject:X} ");
+}
+
+Console.WriteLine();
+
+string encoded = Convert.ToBase64String(binaryObjects);
 Console.WriteLine($"Binary object as string: {encoded}");
