@@ -1,4 +1,6 @@
-﻿RunFactorial();
+﻿using static System.Console;
+
+RunFactorial();
 
 static int Factorial(int number)
 {
@@ -12,20 +14,30 @@ static int Factorial(int number)
     //     return 1;
     // }
     //
-    // return number * Factorial(number - 1);
-    
+    // checked
+    // {
+    //     return number * Factorial(number - 1);
+    // }
+
     return number switch
     {
         < 1 => 0,
         1 => 1,
-        _ => number * Factorial(number - 1)
+        _ => checked(number * Factorial(number - 1))
     };
 }
 
 static void RunFactorial()
 {
-    for (int i = 1; i < 15; i++)
+    for (int number = 1; number < 15; number++)
     {
-        Console.WriteLine($"{i}! =  {Factorial(i):N0}");
+        try
+        {
+            WriteLine($"{number}! =  {Factorial(number):N0}");
+        }
+        catch (OverflowException)
+        {
+            WriteLine($"{number}! is too big for a 32-bit integer.");
+        }
     }
 }
