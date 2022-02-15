@@ -8,4 +8,33 @@
         <RootNamespace>CordinalToOriginal</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\ConsoleApp1rdinalToOriginal.csproj.nuget.dgspec.json" />
+      <Content Include="obj\ConsoleApp1rdinalToOriginal.csproj.nuget.g.props" />
+      <Content Include="obj\ConsoleApp1rdinalToOriginal.csproj.nuget.g.targets" />
+      <Content Include="obj\CordinalToOriginal.csproj.nuget.dgspec.json" />
+      <Content Include="obj\CordinalToOriginal.csproj.nuget.g.props" />
+      <Content Include="obj\CordinalToOriginal.csproj.nuget.g.targets" />
+      <Content Include="obj\Debug\net6.0\apphost.exe" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.dll" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net6.0\CardinalToOriginal.pdb" />
+      <Content Include="obj\Debug\net6.0\ConsoleApp1rdinalToOriginal.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\ConsoleApp1rdinalToOriginal.assets.cache" />
+      <Content Include="obj\Debug\net6.0\ConsoleApp1rdinalToOriginal.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net6.0\CordinalToOriginal.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\CordinalToOriginal.assets.cache" />
+      <Content Include="obj\Debug\net6.0\CordinalToOriginal.GeneratedMSBuildEditorConfig.editorconfig" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net6.0\ConsoleApp1rdinalToOriginal.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net6.0\ConsoleApp1rdinalToOriginal.GlobalUsings.g.cs" />
+      <Compile Include="obj\Debug\net6.0\CordinalToOriginal.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net6.0\CordinalToOriginal.GlobalUsings.g.cs" />
+    </ItemGroup>
+
 </Project>

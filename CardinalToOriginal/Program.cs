@@ -2,6 +2,7 @@
 
 RunCardinalToOriginal();
 
+
 static string CardinalToOriginal(int number)
 {
     switch (number)

@@ -7,4 +7,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="obj\Debug\net6.0\apphost.exe" />
+      <Content Include="obj\Debug\net6.0\Factorial.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\Factorial.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net6.0\Factorial.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net6.0\Factorial.dll" />
+      <Content Include="obj\Debug\net6.0\Factorial.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net6.0\Factorial.pdb" />
+    </ItemGroup>
+
 </Project>

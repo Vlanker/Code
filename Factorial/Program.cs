@@ -27,6 +27,7 @@ static int Factorial(int number)
     };
 }
 
+
 static void RunFactorial()
 {
     for (int number = 1; number < 15; number++)
